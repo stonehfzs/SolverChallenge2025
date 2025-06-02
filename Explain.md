@@ -23,3 +23,5 @@ Depend on mmio.h, directly change the mmio.h into CSR format.
 ## Remark
 
 The actual and detailed process is defined in the file `mysolver.h`. So you should finish that.
+
+Makefile will compile all needed files to make sure all structure are in the whole process.
