@@ -1,9 +1,21 @@
 // please add your code in this file
 struct MySolver {
-    // add struct array
+    int n;
+    int* row_ptr;
+    int* col_idx;
+    double* val; // CSR格式
+    // LU分解结果（这里只存储对角元，适用于对角占优矩阵的演示）
+    double* diag;
 };
 
 struct MySolver_complex {
+    int n;
+    int* row_ptr;
+    int* col_idx;
+    double* val_re;
+    double* val_im;
+    double* diag_re;
+    double* diag_im;
     // add struct array
 };
 
